@@ -1,18 +1,18 @@
 spring:
-	profiles:
-		active:
-		- dev
+ profiles:
+  active:
+  - dev
 
-------
-
-spring:
-	profiles: dev
-	application:
-		name: microservicecloud-config-yaozhou-dev
-
-------
+#------
 
 spring:
-	profiles: test
+ profiles: dev
+ application:
+  name: microservicecloud-config-yaozhou-dev
+
+#------
+
+spring:
+  profiles: test
 	application:
 		name: microservicecloud-config-yaozhou-test

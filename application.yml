@@ -1,16 +1,16 @@
 spring:
   profiles:
     active:
-      - dev
+    - dev
 
-#----------------
+---
 
 spring:
   profiles: dev
   application:
     name: microservicecloud-config-yaozhou-dev
     
-#----------------
+---
 
 spring:
   profiles: test
